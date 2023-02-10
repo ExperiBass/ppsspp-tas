@@ -13,6 +13,9 @@ const ppsspp = new PPSSPP()
     `input.analog.send` - what else? defaults to left stick, but both X and Y are required. - {"x": number (-1 to 1), "y": number (-1 to 1), "stick":"left"(default)|"right"}
 */
 const inputQueue = require('../inputs.json')
+// ^ wipeout pure rapier VK lap @60fps (terrible)
+
+
 // fucking love `nap`
 async function sleep(millis) {
     return new Promise(resolve => setTimeout(resolve, millis))
