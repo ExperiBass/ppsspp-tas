@@ -1,5 +1,6 @@
 const PPSSPP = require('./external/sdk')
-const {inputs} = require('./common')
+const { inputs } = require('./common')
+const { writeFileSync} = require('fs')
 const config = require('../package.json')
 const ppsspp = new PPSSPP()
 
@@ -13,28 +14,28 @@ const ppsspp = new PPSSPP()
 */
 const inputQueue = [
     // freeplay -> venom -> vk -> assegai
-    {event: 'input.buttons.press', args: {button: 'cross', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'cross', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'cross', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'cross', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'cross', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
-    {event: 'input.buttons.press', args: {button: 'down', duration: 2}, waitBefore: 10},
+    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
+    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
 ]
 // fucking love `nap`
 async function sleep(millis) {
     return new Promise(resolve => setTimeout(resolve, millis))
 }
 
-async function main() {
+async function playInputs() {
     try {
         await ppsspp.autoConnect()
         const handshake = await ppsspp.send({ event: 'version', name: config.name, version: config.version })
@@ -47,14 +48,46 @@ async function main() {
             const hitx = await ppsspp.send({ event: input.event, ...input.args })
             console.log(hitx)
         }
-    } catch(e) {
+    } catch (e) {
         console.error(e)
     } finally {
-		ppsspp.disconnect()
-	}
+        ppsspp.disconnect()
+    }
 }
-main()
+//playInputs()
+
+let recordedInputs = []
+async function recordInputs() {
+    try {
+        await ppsspp.autoConnect()
+        const handshake = await ppsspp.send({ event: 'version', name: config.name, version: config.version })
+        console.log('Connected to', handshake.name, 'version', handshake.version)
+
+        // listen
+        let lastPressTimestamp = 0
+        ppsspp.listen('input.buttons', (ev) => {
+            const buttons = {}
+            for (const [k, v] of Object.entries(ev.changed)) {
+                buttons[k] = v
+            }
+            const thisPressTimestamp = Date.now()
+            if (lastPressTimestamp === 0) {
+                lastPressTimestamp = thisPressTimestamp // just so the first value isnt a stuoid big number
+            }
+            const input = {event: 'input.buttons.send', args: {buttons}, waitBefore: (thisPressTimestamp - lastPressTimestamp)}
+            recordedInputs.push(input)
+            console.log(`Saved input:`)
+            console.log(input)
+            lastPressTimestamp = thisPressTimestamp
+
+        })
+    } catch (e) {
+        console.error(e)
+    }
+}
+recordInputs()
 
 process.on('SIGINT', () => {
+    writeFileSync('./inputs.json', JSON.stringify(recordedInputs, null, 2), 'utf-8')
     ppsspp.disconnect()
 })
