@@ -13,7 +13,7 @@ const ppsspp = new PPSSPP()
     `input.analog.send` - what else? defaults to left stick, but both X and Y are required. - {"x": number (-1 to 1), "y": number (-1 to 1), "stick":"left"(default)|"right"}
 */
 const inputQueue = require('../inputs.json')
-// ^ wipeout pure rapier VK lap @60fps (terrible)
+// ^ wipeout pure menu to rapier VK lap @60fps (terrible)
 
 
 // fucking love `nap`
@@ -72,8 +72,7 @@ async function recordInputs() {
         console.error(e)
     }
 }
-//recordInputs()
-
+recordInputs()
 
 async function dumpMem() {
     try {
@@ -91,8 +90,8 @@ async function dumpMem() {
         ppsspp.disconnect()
     }
 }
-dumpMem()
+//dumpMem()
 process.on('SIGINT', () => {
-    //writeFileSync('./inputs.json', JSON.stringify(recordedInputs, null, 2), 'utf-8')
+    writeFileSync('./inputs.json', JSON.stringify(recordedInputs, null, 2), 'utf-8')
     ppsspp.disconnect()
 })

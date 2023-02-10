@@ -12,10 +12,307 @@
     "event": "input.buttons.send",
     "args": {
       "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 133
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 252
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 150
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 135
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 267
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 586
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 83
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 686
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 502
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 201
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 100
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 100
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
         "right": true
       }
     },
-    "waitBefore": 116
+    "waitBefore": 251
   },
   {
     "event": "input.buttons.send",
@@ -24,7 +321,52 @@
         "right": false
       }
     },
-    "waitBefore": 167
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 1490
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 4671
   },
   {
     "event": "input.buttons.send",
@@ -33,13 +375,67 @@
         "right": true
       }
     },
-    "waitBefore": 871
+    "waitBefore": 285
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
         "right": false
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 619
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 519
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 485
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
       }
     },
     "waitBefore": 185
@@ -51,223 +447,7 @@
         "left": true
       }
     },
-    "waitBefore": 418
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 168
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 234
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 152
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 284
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 184
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 1273
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "ltrigger": true
-      }
-    },
-    "waitBefore": 167
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "ltrigger": false
-      }
-    },
-    "waitBefore": 184
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 219
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 452
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 100
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 402
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 168
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 435
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 252
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 117
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 167
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 218
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "ltrigger": true
-      }
-    },
-    "waitBefore": 68
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "ltrigger": false
-      }
-    },
-    "waitBefore": 284
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 218
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 184
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 235
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 151
+    "waitBefore": 687
   },
   {
     "event": "input.buttons.send",
@@ -282,28 +462,10 @@
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 134
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 185
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
         "left": true
       }
     },
-    "waitBefore": 385
+    "waitBefore": 285
   },
   {
     "event": "input.buttons.send",
@@ -318,10 +480,200 @@
     "event": "input.buttons.send",
     "args": {
       "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 401
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 67
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 185
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 217
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
         "right": true
       }
     },
+    "waitBefore": 269
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 150
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 419
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 302
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 201
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 318
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 469
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
     "waitBefore": 84
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 234
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 268
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 369
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 854
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false,
+        "right": true
+      }
+    },
+    "waitBefore": 17
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": false
+      }
+    },
+    "waitBefore": 17
   },
   {
     "event": "input.buttons.send",
@@ -340,41 +692,53 @@
         "left": true
       }
     },
-    "waitBefore": 50
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 18
+    "waitBefore": 17
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
         "up": false,
+        "left": false,
         "right": true
       }
     },
-    "waitBefore": 33
+    "waitBefore": 100
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "up": true
+        "up": true,
+        "right": false
       }
     },
-    "waitBefore": 134
+    "waitBefore": 84
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "right": false
+        "left": true
+      }
+    },
+    "waitBefore": 34
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false,
+        "right": true
+      }
+    },
+    "waitBefore": 67
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": false
       }
     },
     "waitBefore": 17
@@ -383,6 +747,25 @@
     "event": "input.buttons.send",
     "args": {
       "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 50
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": true
+      }
+    },
+    "waitBefore": 34
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": false,
         "left": true
       }
     },
@@ -392,19 +775,19 @@
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "up": false
+        "left": false
       }
     },
-    "waitBefore": 51
+    "waitBefore": 34
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "up": true
+        "left": true
       }
     },
-    "waitBefore": 268
+    "waitBefore": 368
   },
   {
     "event": "input.buttons.send",
@@ -413,17 +796,16 @@
         "ltrigger": true
       }
     },
-    "waitBefore": 33
+    "waitBefore": 302
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "ltrigger": false,
-        "up": false
+        "ltrigger": false
       }
     },
-    "waitBefore": 235
+    "waitBefore": 184
   },
   {
     "event": "input.buttons.send",
@@ -432,7 +814,7 @@
         "left": false
       }
     },
-    "waitBefore": 168
+    "waitBefore": 33
   },
   {
     "event": "input.buttons.send",
@@ -441,7 +823,25 @@
         "right": true
       }
     },
-    "waitBefore": 351
+    "waitBefore": 235
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": true
+      }
+    },
+    "waitBefore": 50
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": false
+      }
+    },
+    "waitBefore": 118
   },
   {
     "event": "input.buttons.send",
@@ -459,24 +859,6 @@
         "right": true
       }
     },
-    "waitBefore": 351
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "rtrigger": true
-      }
-    },
-    "waitBefore": 68
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "rtrigger": false
-      }
-    },
     "waitBefore": 167
   },
   {
@@ -486,7 +868,25 @@
         "right": false
       }
     },
-    "waitBefore": 168
+    "waitBefore": 234
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 553
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 335
   },
   {
     "event": "input.buttons.send",
@@ -505,240 +905,6 @@
       }
     },
     "waitBefore": 134
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 670
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 134
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 251
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 151
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 352
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 167
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 218
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 268
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 268
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "ltrigger": true
-      }
-    },
-    "waitBefore": 167
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "ltrigger": false
-      }
-    },
-    "waitBefore": 185
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 101
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 200
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 301
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 168
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 352
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 435
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 235
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 167
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 552
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 436
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "rtrigger": true
-      }
-    },
-    "waitBefore": 67
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "rtrigger": false
-      }
-    },
-    "waitBefore": 184
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 285
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 268
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 101
   },
   {
     "event": "input.buttons.send",
@@ -756,7 +922,277 @@
         "left": false
       }
     },
-    "waitBefore": 268
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 720
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 419
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 133
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 34
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 669
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 570
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 100
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 335
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 285
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": true
+      }
+    },
+    "waitBefore": 17
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": false
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": true
+      }
+    },
+    "waitBefore": 133
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": false
+      }
+    },
+    "waitBefore": 84
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 84
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 335
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 50
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": true
+      }
+    },
+    "waitBefore": 84
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 201
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": false
+      }
+    },
+    "waitBefore": 186
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 50
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 101
   },
   {
     "event": "input.buttons.send",
@@ -771,10 +1207,46 @@
     "event": "input.buttons.send",
     "args": {
       "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 185
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 318
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 100
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
         "ltrigger": true
       }
     },
-    "waitBefore": 151
+    "waitBefore": 33
   },
   {
     "event": "input.buttons.send",
@@ -783,106 +1255,34 @@
         "ltrigger": false
       }
     },
+    "waitBefore": 185
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 84
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 451
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
     "waitBefore": 218
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 151
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 368
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 218
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 134
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 67
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 117
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 469
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 302
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 251
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 235
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 83
   },
   {
     "event": "input.buttons.send",
@@ -900,25 +1300,7 @@
         "left": false
       }
     },
-    "waitBefore": 268
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 552
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 235
+    "waitBefore": 100
   },
   {
     "event": "input.buttons.send",
@@ -927,7 +1309,7 @@
         "right": true
       }
     },
-    "waitBefore": 452
+    "waitBefore": 285
   },
   {
     "event": "input.buttons.send",
@@ -936,7 +1318,7 @@
         "right": false
       }
     },
-    "waitBefore": 118
+    "waitBefore": 168
   },
   {
     "event": "input.buttons.send",
@@ -945,7 +1327,7 @@
         "left": true
       }
     },
-    "waitBefore": 284
+    "waitBefore": 301
   },
   {
     "event": "input.buttons.send",
@@ -963,7 +1345,7 @@
         "left": true
       }
     },
-    "waitBefore": 235
+    "waitBefore": 553
   },
   {
     "event": "input.buttons.send",
@@ -972,70 +1354,7 @@
         "left": false
       }
     },
-    "waitBefore": 151
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 470
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 134
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 385
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 284
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "cross": false
-      }
-    },
-    "waitBefore": 101
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": true
-      }
-    },
-    "waitBefore": 84
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "right": false
-      }
-    },
-    "waitBefore": 100
+    "waitBefore": 251
   },
   {
     "event": "input.buttons.send",
@@ -1053,7 +1372,16 @@
         "left": false
       }
     },
-    "waitBefore": 151
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "square": true
+      }
+    },
+    "waitBefore": 101
   },
   {
     "event": "input.buttons.send",
@@ -1062,7 +1390,16 @@
         "right": true
       }
     },
-    "waitBefore": 351
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "square": false
+      }
+    },
+    "waitBefore": 33
   },
   {
     "event": "input.buttons.send",
@@ -1071,94 +1408,13 @@
         "right": false
       }
     },
-    "waitBefore": 135
+    "waitBefore": 67
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 636
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 134
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": true
-      }
-    },
-    "waitBefore": 402
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "left": false
-      }
-    },
-    "waitBefore": 134
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "rtrigger": true
-      }
-    },
-    "waitBefore": 1608
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "ltrigger": true
-      }
-    },
-    "waitBefore": 17
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "ltrigger": false
-      }
-    },
-    "waitBefore": 1473
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "rtrigger": false
-      }
-    },
-    "waitBefore": 17
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "start": true
-      }
-    },
-    "waitBefore": 787
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "start": false
+        "right": true
       }
     },
     "waitBefore": 168
@@ -1167,46 +1423,28 @@
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "down": true
+        "right": false
       }
     },
-    "waitBefore": 435
+    "waitBefore": 117
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "down": false
+        "right": true
       }
     },
-    "waitBefore": 168
+    "waitBefore": 821
   },
   {
     "event": "input.buttons.send",
     "args": {
       "buttons": {
-        "down": true
+        "right": false
       }
     },
-    "waitBefore": 134
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "down": false
-      }
-    },
-    "waitBefore": 100
-  },
-  {
-    "event": "input.buttons.send",
-    "args": {
-      "buttons": {
-        "cross": true
-      }
-    },
-    "waitBefore": 268
+    "waitBefore": 117
   },
   {
     "event": "input.buttons.send",
@@ -1215,6 +1453,240 @@
         "cross": false
       }
     },
-    "waitBefore": 185
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 368
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": true
+      }
+    },
+    "waitBefore": 85
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 33
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 486
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 201
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 352
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 218
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 1022
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": false
+      }
+    },
+    "waitBefore": 33
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "start": true
+      }
+    },
+    "waitBefore": 1474
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "start": false
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 570
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "circle": true
+      }
+    },
+    "waitBefore": 6915
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "circle": false
+      }
+    },
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 234
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 988
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 2060
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 184
   }
 ]
