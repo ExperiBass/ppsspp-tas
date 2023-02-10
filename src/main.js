@@ -12,24 +12,7 @@ const ppsspp = new PPSSPP()
     `input.buttons.press` - used for pressing and releasing a button - {"button": button_id, "duration": frames_to_press_for}
     `input.analog.send` - what else? defaults to left stick, but both X and Y are required. - {"x": number (-1 to 1), "y": number (-1 to 1), "stick":"left"(default)|"right"}
 */
-const inputQueue = [
-    // freeplay -> venom -> vk -> assegai
-    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'cross', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-    { event: 'input.buttons.press', args: { button: 'down', duration: 2 }, waitBefore: 10 },
-]
+const inputQueue = require('../inputs.json')
 // fucking love `nap`
 async function sleep(millis) {
     return new Promise(resolve => setTimeout(resolve, millis))
@@ -42,6 +25,7 @@ async function playInputs() {
         console.log('Connected to', handshake.name, 'version', handshake.version)
 
         // go through queue
+        // TODO: wait for timer to start (where in memory?)
         for (const input of inputQueue) {
             console.log(`Sending "${input.event}" with args ${JSON.stringify(input.args)} and waiting for ${input.waitBefore}ms`)
             await sleep(input.waitBefore)
@@ -85,9 +69,21 @@ async function recordInputs() {
         console.error(e)
     }
 }
-recordInputs()
+//recordInputs()
 
+async function readMem() {
+    try {
+        await ppsspp.autoConnect()
+        const handshake = await ppsspp.send({ event: 'version', name: config.name, version: config.version })
+        console.log('Connected to', handshake.name, 'version', handshake.version)
+
+        // listen
+        
+    } catch (e) {
+        console.error(e)
+    }
+}
 process.on('SIGINT', () => {
-    writeFileSync('./inputs.json', JSON.stringify(recordedInputs, null, 2), 'utf-8')
+    //writeFileSync('./inputs.json', JSON.stringify(recordedInputs, null, 2), 'utf-8')
     ppsspp.disconnect()
 })

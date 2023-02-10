@@ -1,0 +1,1220 @@
+[
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 0
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 116
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 871
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 185
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 418
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 234
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 152
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 284
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 1273
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 219
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 452
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 100
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 402
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 435
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 252
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 218
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 68
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 284
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 218
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 235
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 150
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 185
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 385
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 185
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 84
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": true,
+        "right": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 50
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 18
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": false,
+        "right": true
+      }
+    },
+    "waitBefore": 33
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 17
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 16
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": false
+      }
+    },
+    "waitBefore": 51
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "up": true
+      }
+    },
+    "waitBefore": 268
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 33
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false,
+        "up": false
+      }
+    },
+    "waitBefore": 235
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 351
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 351
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": true
+      }
+    },
+    "waitBefore": 68
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": false
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 670
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 251
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 352
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 218
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 268
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 268
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 185
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 200
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 301
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 352
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 435
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 235
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 167
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 552
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 436
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": true
+      }
+    },
+    "waitBefore": 67
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": false
+      }
+    },
+    "waitBefore": 184
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 285
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 268
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 201
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 268
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 502
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 218
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 368
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 218
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 67
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 469
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 302
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 251
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 235
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 83
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 185
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 268
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 552
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 235
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 452
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 118
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 284
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 117
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 235
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 470
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 385
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 284
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 101
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 84
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 100
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 352
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 151
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": true
+      }
+    },
+    "waitBefore": 351
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "right": false
+      }
+    },
+    "waitBefore": 135
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 636
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": true
+      }
+    },
+    "waitBefore": 402
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "left": false
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": true
+      }
+    },
+    "waitBefore": 1608
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": true
+      }
+    },
+    "waitBefore": 17
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "ltrigger": false
+      }
+    },
+    "waitBefore": 1473
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "rtrigger": false
+      }
+    },
+    "waitBefore": 17
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "start": true
+      }
+    },
+    "waitBefore": 787
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "start": false
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 435
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 168
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": true
+      }
+    },
+    "waitBefore": 134
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "down": false
+      }
+    },
+    "waitBefore": 100
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": true
+      }
+    },
+    "waitBefore": 268
+  },
+  {
+    "event": "input.buttons.send",
+    "args": {
+      "buttons": {
+        "cross": false
+      }
+    },
+    "waitBefore": 185
+  }
+]
