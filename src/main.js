@@ -29,7 +29,7 @@ async function playInputs() {
 
         // go through queue
         // TODO: wait for timer to start (where in memory?)
-        // TODO: figure out why the timing is off (maybe switch to frame timing? how?)
+        // TODO: figure out why the timing is off (maybe switch to frame timing? how? https://github.com/hrydgard/ppsspp/blob/master/Core/Debugger/WebSocket/ReplaySubscriber.cpp maybe)
         for (const input of inputQueue) {
             console.log(`Sending "${input.event}" with args ${JSON.stringify(input.args)} and waiting for ${input.waitBefore}ms`)
             await sleep(input.waitBefore)
@@ -80,6 +80,7 @@ async function dumpMem() {
         console.log('Connected to', handshake.name, 'version', handshake.version)
 
         // listen
+        // TODO: https://github.com/hrydgard/ppsspp/blob/master/Core/Debugger/WebSocket/MemoryInfoSubscriber.cpp
         const result = await ppsspp.send({ event: 'memory.read', address: 0x08000000, size: 32*1000000 }) // 64MB
         const memory = Buffer.from(result.base64, 'base64')
         writeFileSync('./memdump.hex', memory, 'hex')
