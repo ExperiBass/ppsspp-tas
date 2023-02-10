@@ -29,11 +29,11 @@ async function playInputs() {
 
         // go through queue
         // TODO: wait for timer to start (where in memory?)
+        // TODO: figure out why the timing is off (maybe switch to frame timing? how?)
         for (const input of inputQueue) {
             console.log(`Sending "${input.event}" with args ${JSON.stringify(input.args)} and waiting for ${input.waitBefore}ms`)
             await sleep(input.waitBefore)
             const hitx = await ppsspp.send({ event: input.event, ...input.args })
-            console.log(hitx)
         }
     } catch (e) {
         console.error(e)
@@ -41,7 +41,7 @@ async function playInputs() {
         ppsspp.disconnect()
     }
 }
-//playInputs()
+playInputs()
 
 let recordedInputs = []
 async function recordInputs() {
@@ -52,6 +52,7 @@ async function recordInputs() {
 
         // listen
         let lastPressTimestamp = 0
+        console.log("Recording.")
         ppsspp.listen('input.buttons', (ev) => {
             const buttons = {}
             for (const [k, v] of Object.entries(ev.changed)) {
@@ -63,8 +64,6 @@ async function recordInputs() {
             }
             const input = {event: 'input.buttons.send', args: {buttons}, waitBefore: (thisPressTimestamp - lastPressTimestamp)}
             recordedInputs.push(input)
-            console.log(`Saved input:`)
-            console.log(input)
             lastPressTimestamp = thisPressTimestamp
 
         })
@@ -72,7 +71,7 @@ async function recordInputs() {
         console.error(e)
     }
 }
-recordInputs()
+//recordInputs()
 
 async function dumpMem() {
     try {
@@ -92,6 +91,6 @@ async function dumpMem() {
 }
 //dumpMem()
 process.on('SIGINT', () => {
-    writeFileSync('./inputs.json', JSON.stringify(recordedInputs, null, 2), 'utf-8')
+    //writeFileSync('./inputs.json', JSON.stringify(recordedInputs, null, 2), 'utf-8')
     ppsspp.disconnect()
 })
