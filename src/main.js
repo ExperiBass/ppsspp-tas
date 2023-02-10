@@ -71,18 +71,24 @@ async function recordInputs() {
 }
 //recordInputs()
 
-async function readMem() {
+
+async function dumpMem() {
     try {
         await ppsspp.autoConnect()
         const handshake = await ppsspp.send({ event: 'version', name: config.name, version: config.version })
         console.log('Connected to', handshake.name, 'version', handshake.version)
 
         // listen
-        
+        const result = await ppsspp.send({ event: 'memory.read', address: 0x08000000, size: 32*1000000 }) // 64MB
+        const memory = Buffer.from(result.base64, 'base64')
+        writeFileSync('./memdump.hex', memory, 'hex')
     } catch (e) {
         console.error(e)
+    } finally {
+        ppsspp.disconnect()
     }
 }
+dumpMem()
 process.on('SIGINT', () => {
     //writeFileSync('./inputs.json', JSON.stringify(recordedInputs, null, 2), 'utf-8')
     ppsspp.disconnect()
