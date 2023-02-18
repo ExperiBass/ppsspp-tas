@@ -1,6 +1,6 @@
 const PPSSPP = require('./external/sdk')
 const { inputs } = require('./common')
-const { writeFileSync} = require('fs')
+const { writeFileSync, readFileSync } = require('fs')
 const config = require('../package.json')
 const ppsspp = new PPSSPP()
 
@@ -21,57 +21,44 @@ async function sleep(millis) {
     return new Promise(resolve => setTimeout(resolve, millis))
 }
 
-async function playInputs() {
+async function play() {
     try {
         await ppsspp.autoConnect()
         const handshake = await ppsspp.send({ event: 'version', name: config.name, version: config.version })
         console.log('Connected to', handshake.name, 'version', handshake.version)
 
-        // go through queue
-        // TODO: wait for timer to start (where in memory?)
-        // TODO: figure out why the timing is off (maybe switch to frame timing? how? https://github.com/hrydgard/ppsspp/blob/master/Core/Debugger/WebSocket/ReplaySubscriber.cpp maybe)
-        for (const input of inputQueue) {
-            console.log(`Sending "${input.event}" with args ${JSON.stringify(input.args)} and waiting for ${input.waitBefore}ms`)
-            await sleep(input.waitBefore)
-            const hitx = await ppsspp.send({ event: input.event, ...input.args })
-        }
+        const played = await ppsspp.send({ event: 'replay.execute', version: 1, base64: readFileSync('./replay.txt', 'base64') })
+        console.log(played)
+        console.log(await ppsspp.send({event: 'replay.status'}))
     } catch (e) {
         console.error(e)
     } finally {
         ppsspp.disconnect()
     }
 }
-playInputs()
+play()
 
 let recordedInputs = []
-async function recordInputs() {
+async function record() {
     try {
         await ppsspp.autoConnect()
         const handshake = await ppsspp.send({ event: 'version', name: config.name, version: config.version })
         console.log('Connected to', handshake.name, 'version', handshake.version)
 
         // listen
-        let lastPressTimestamp = 0
-        console.log("Recording.")
-        ppsspp.listen('input.buttons', (ev) => {
-            const buttons = {}
-            for (const [k, v] of Object.entries(ev.changed)) {
-                buttons[k] = v
-            }
-            const thisPressTimestamp = Date.now()
-            if (lastPressTimestamp === 0) {
-                lastPressTimestamp = thisPressTimestamp // just so the first value isnt a stuoid big number
-            }
-            const input = {event: 'input.buttons.send', args: {buttons}, waitBefore: (thisPressTimestamp - lastPressTimestamp)}
-            recordedInputs.push(input)
-            lastPressTimestamp = thisPressTimestamp
-
-        })
+        await ppsspp.send({ event: 'replay.begin' })
+        await sleep(5*1000)
+        const replay = await ppsspp.send({ event: 'replay.flush' })
+        console.log(replay)
+        console.log(Buffer.from(replay.base64, 'base64'))
+        await writeFileSync('./replay.txt', Buffer.from(replay.base64, 'base64'))
     } catch (e) {
         console.error(e)
+    } finally {
+        ppsspp.disconnect()
     }
 }
-//recordInputs()
+//record()
 
 async function dumpMem() {
     try {
